@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+
+h2{
+
+    position: absolute;
+    left:1%;
+    top:0px;
+}
+
+    a{
+        text-decoration:none;
+        color:white;
+    }
+
+nav{
+
+    display:flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    padding-bottom:20px;
+}
+
+
+nav ul{
+
+    display: flex;
+    list-style:none;
+    text-align: center;
+   
+    margin-left:970px;/*about contact project ne left leva mate use kayru*/
+}
+
+nav li{
+
+    
+    padding-top:20px;
+    list-style:none;
+    margin-left:108px;
+}
+.heading{
+
+    text-align: center;
+    position: absolute;
+    left:45%;
+    top:75px;
+    font-size:30px;
+    opacity:0.4;
+
+}
+
+.inputfield{
+
+    border:2px solid white;
+    position: absolute;
+    top: 20%;
+    left:35%;
+    background-color:white;
+    box-shadow:2px 2px 2px 2px silver;
+    height:50px;
+    padding-left:10px;
+}
+
+.email{
+
+    border:2px solid white;
+    position: absolute;
+    top: 30%;
+    left:35%;
+    background-color:white;
+    box-shadow:2px 2px 2px 2px silver;
+    height:50px;
+    padding-left:10px;
+}
+
+.sub{
+
+    border:2px solid white;
+    position: absolute;
+    top: 40%;
+    left:35%;
+    background-color:white;
+    box-shadow:2px 2px 2px 2px silver;
+    height:50px;
+    padding-left:10px;
+}
+
+.textarea{
+
+    border:2px solid white;
+    position: absolute;
+    top: 50%;
+    left:35%;
+    background-color:white;
+    box-shadow:2px 2px 2px 2px silver;
+    height:200px;
+    width:620px;
+    padding-top:80px;
+    padding-left:10px;
+}
+
+.btn{
+    position: absolute;
+    bottom:17%;
+    left:48%;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:35px;
+    padding-left:35px;
+    border-radius:5px;
+    color:white;
+    background-color:black;
+}
+
+.footer{
+
+    background-color: black;
+    position: absolute;
+    bottom:0%;
+    height:80px;
+    width:100%;
+    color: white;
+
+}
+
+.text{
+    padding-top:12px;
+    text-align: center;
+    font-size:10px;
+}
+
+.last-footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-invision{
+
+    position: absolute;
+    bottom:2%;
+    font-size:25px;
+    left:45%;
+    color: white;
+
+}
+
+.fa-github{
+
+    position: absolute;
+    bottom:2%;
+    font-size:25px;
+    left:49%;
+    color: white;
+
+}
+
+.fa-twitter-square{
+
+    position: absolute;
+    bottom:2%;
+    font-size:25px;
+    left:53%;
+    color: white;
+
+}

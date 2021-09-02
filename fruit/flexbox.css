@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main-content{
+
+    display:flex;
+    flex-direction:row;
+    margin:80px 300px;
+    align-items: center;
+}
+
+
+.box1{
+
+    box-shadow:15px 15px 15px 15px silver;
+    width:280px;
+    text-align: center;
+    margin-left:10px;
+    margin-right:50px;
+    transform-style:preserve-3d;
+    padding:15px;
+    border-radius:15px;
+   
+}
+
+.box1:hover{
+    
+    
+    
+    /*transform: rotateY(180deg);*/
+    transform: skewX(10deg);
+    
+    
+}
+.box1:hover img{
+    
+    
+    
+    transform: rotateY(180deg);
+    
+   
+    
+    
+}
+.box2{
+
+    box-shadow:18px 18px 18px 18px silver;
+    width:280px;
+    text-align: center;
+    transform-style:preserve-3d;
+    padding:15px;
+    border-radius:15px;
+}
+
+.box2:hover img{
+    
+    
+    transform: rotateY(180deg);
+    /*transform: rotateY(180deg);
+      transform: skewX(10deg);
+    */
+  
+    
+    
+}
+
+.box3{
+
+    box-shadow:10px 10px 10px 10px silver;
+    width:280px;
+    text-align: center;
+    margin-left:50px;
+    height:430px;
+    padding:15px;
+    transform-style:preserve-3d;
+    border-radius:15px;
+}
+
+
+.box3:hover{
+    
+    
+    transform: rotateY(380deg);
+    /*transform: rotateY(180deg);
+      transform: skewX(10deg);
+    */
+  
+    
+    
+}
